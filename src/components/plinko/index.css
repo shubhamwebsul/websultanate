@@ -1,0 +1,331 @@
+main.ant-layout-content .plinko {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:#ffffff;
+}
+.plinko_tab {
+    padding: 1rem!important;
+    background-color: #263742;
+    border-radius: 6px 0px 0px 6px;
+}
+
+.plinko> .ant-row {
+    box-shadow: rgba(25, 25, 25, 0.75) 0px 0px 10px;
+    background-color: rgb(18, 34, 46);
+    border-radius: 6px;
+    display: flex;
+}
+
+
+.plinko_tab .ant-tabs-bar {border-bottom: navajowhite;}
+
+
+.plinko_tab .ant-tabs-bar .ant-tabs-nav-scroll .ant-tabs-nav {
+    width: 100%;
+}
+
+.plinko_tab .ant-tabs-bar .ant-tabs-nav-scroll .ant-tabs-nav div.ant-tabs-ink-bar {display: none!important;}
+
+.plinko_tab.ant-tabs .ant-tabs-small-bar .ant-tabs-tab {
+    font-weight: 600;
+    font-size: 0.8em;
+    touch-action: manipulation;
+    position: relative;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    line-height: 1.5;
+    color: rgb(183, 191, 214);
+    transition: background 300ms ease 0s, opacity 300ms ease 0s, transform 100ms ease 0s;
+    border-radius: 5px;
+    background: rgb(46, 68, 82);
+    padding: calc(0.5em + 2px) 1em;
+    margin-right: 0px;
+    width: 50%;
+}
+
+.plinko_tab.ant-tabs .ant-tabs-top-bar .ant-tabs-tab.ant-tabs-tab-active {
+    background-color: rgb(21, 33, 45);
+}
+.plinko_tab.ant-tabs .ant-tabs-top-bar .ant-tabs-tab.ant-tabs-tab-active:hover {
+    background-color: rgb(21, 33, 45);
+}
+
+.plinko_tab.ant-tabs .ant-tabs-nav div .ant-tabs-tab:first-child {
+    border-radius: 6px 0px 0px 6px;
+}
+
+.plinko_tab.ant-tabs .ant-tabs-nav div .ant-tabs-tab:last-child {
+    border-radius: 0px 6px 6px 0px;
+}
+
+.plinko_tab.ant-tabs .ant-tabs-top-bar .ant-tabs-tab:hover {
+    background-color: rgb(55, 82, 98);
+}
+
+.manual_tab label {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(183, 191, 214);
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 0px;
+    margin: 0px 0px 0.25em;
+    transition: all 200ms ease-out 0s;
+}
+
+.total_bet .ant-select {
+    width: 100%;
+}
+
+.total_bet .ant-select .ant-select-selection {
+    background-color: transparent;
+    border: navajowhite;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.total_bet .ant-select .ant-select-arrow {
+    color: #ffffff;
+}
+
+.ant-select-dropdown-menu {
+    background-color: #15212d;
+}
+
+.ant-select-dropdown-menu .ant-select-dropdown-menu-item-selected {
+    background-color: #0000;
+    font-weight: 400;
+}
+
+.ant-select-dropdown-menu li.ant-select-dropdown-menu-item {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.ant-select-dropdown-menu .ant-select-dropdown-menu-item-active {
+    background-color:#007bff!important;
+}
+.total_bet .ant-select.ant-select-focused {
+    background-color: #15212d;
+}
+
+
+div#techvr canvas{
+    max-width: 100%;
+    height: auto;
+}
+
+div#techvr {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+
+.plinko_tab_sidepanel {
+    display: flex!important;
+}
+.pegs {
+    height: 2em;
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-top: -5px;
+}
+.pegs_wrapper {
+    display: grid;
+    height: 100%;
+    position: relative;
+    gap: 1% 1%;
+    width: 75%;
+}
+.peg1{
+    position: relative;
+    cursor: help;
+    text-align: center;
+    box-shadow: rgb(153, 0, 38) 0px 0.2em 0px 0px;
+    animation-duration: 300ms !important;
+    border-radius: 0.3em;
+    background: rgb(255, 0, 63);
+}
+.peg2{
+    position: relative;
+    cursor: help;
+    text-align: center;
+    box-shadow: rgb(177, 0, 24) 0px 0.2em 0px 0px;
+    animation-duration: 300ms !important;
+    border-radius: 0.3em;
+    background: rgb(255, 24, 55);
+}
+.peg3{
+    position: relative;
+    cursor: help;
+    text-align: center;
+    box-shadow: rgb(200, 1, 0) 0px 0.2em 0px 0px;
+    animation-duration: 300ms !important;
+    border-radius: 0.3em;
+    background: rgb(255, 48, 47);
+}
+.peg4{
+    position: relative;
+    cursor: help;
+    text-align: center;
+    box-shadow: rgb(192, 29, 0) 0px 0.2em 0px 0px;
+    animation-duration: 300ms !important;
+    border-radius: 0.3em;
+    background: rgb(255, 72, 39);
+}
+.peg5{
+    position: relative;
+    cursor: help;
+    text-align: center;
+    box-shadow: rgb(185, 53, 0) 0px 0.2em 0px 0px;
+    animation-duration: 300ms !important;
+    border-radius: 0.3em;
+    background: rgb(255, 96, 32);
+}
+.peg6{
+    position: relative;
+    cursor: help;
+    text-align: center;
+    box-shadow: rgb(177, 74, 0) 0px 0.2em 0px 0px;
+    animation-duration: 300ms !important;
+    border-radius: 0.3em;
+    background: rgb(255, 120, 24);
+}
+.peg7{
+    position: relative;
+    cursor: help;
+    text-align: center;
+    box-shadow: rgb(169, 91, 0) 0px 0.2em 0px 0px;
+    animation-duration: 300ms !important;
+    border-radius: 0.3em;
+    background: rgb(255, 144, 16);
+}
+.peg8{
+    position: relative;
+    cursor: help;
+    text-align: center;
+    box-shadow: rgb(161, 104, 0) 0px 0.2em 0px 0px;
+    animation-duration: 300ms !important;
+    border-radius: 0.3em;
+    background: rgb(255, 168, 8);
+}
+.peg9{
+    position: relative;
+    cursor: help;
+    text-align: center;
+    box-shadow: rgb(153, 115, 0) 0px 0.2em 0px 0px;
+    animation-duration: 300ms !important;
+    border-radius: 0.3em;
+    background: rgb(255, 192, 0);
+}
+.peg10{
+    position: relative;
+    cursor: help;
+    text-align: center;
+    box-shadow: rgb(161, 104, 0) 0px 0.2em 0px 0px;
+    animation-duration: 300ms !important;
+    border-radius: 0.3em;
+    background: rgb(255, 168, 8);
+}
+.peg11{
+    position: relative;
+    cursor: help;
+    text-align: center;
+    box-shadow: rgb(169, 91, 0) 0px 0.2em 0px 0px;
+    animation-duration: 300ms !important;
+    border-radius: 0.3em;
+    background: rgb(255, 144, 16);
+}
+.peg12{
+    position: relative;
+    cursor: help;
+    text-align: center;
+    box-shadow: rgb(177, 74, 0) 0px 0.2em 0px 0px;
+    animation-duration: 300ms !important;
+    border-radius: 0.3em;
+    background: rgb(255, 120, 24);
+}
+.peg13{
+    position: relative;
+    cursor: help;
+    text-align: center;
+    box-shadow: rgb(185, 53, 0) 0px 0.2em 0px 0px;
+    animation-duration: 300ms !important;
+    border-radius: 0.3em;
+    background: rgb(255, 96, 32);
+}
+.peg14{
+    position: relative;
+    cursor: help;
+    text-align: center;
+    box-shadow: rgb(192, 29, 0) 0px 0.2em 0px 0px;
+    animation-duration: 300ms !important;
+    border-radius: 0.3em;
+    background: rgb(255, 72, 39);
+}
+.peg15{
+    position: relative;
+    cursor: help;
+    text-align: center;
+    box-shadow: rgb(200, 1, 0) 0px 0.2em 0px 0px;
+    animation-duration: 300ms !important;
+    border-radius: 0.3em;
+    background: rgb(255, 48, 47);
+}
+.peg16{
+    position: relative;
+    cursor: help;
+    text-align: center;
+    box-shadow: rgb(177, 0, 24) 0px 0.2em 0px 0px;
+    animation-duration: 300ms !important;
+    border-radius: 0.3em;
+    background: rgb(255, 24, 55);
+}
+.peg17{
+    position: relative;
+    cursor: help;
+    text-align: center;
+    box-shadow: rgb(153, 0, 38) 0px 0.2em 0px 0px;
+    animation-duration: 300ms !important;
+    border-radius: 0.3em;
+    background: rgb(255, 0, 63);
+}
+.pegtext{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.8);
+}
+.peg {
+    grid-row: 1 / auto;
+    font-size: 7px;
+}
+
+.canvas-container {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pegs.rows8 .pegs_wrapper {
+    width: 71%;
+    gap: 1% 2%;
+}
+.pegs.rows9 .pegs_wrapper {
+    width: 72%;
+}
