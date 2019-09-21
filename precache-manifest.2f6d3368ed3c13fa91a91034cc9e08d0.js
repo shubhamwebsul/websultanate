@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d6411fce2e99b159c1def3fe629837d9",
+    "revision": "773d257322052e76bfc958bdcf50646c",
     "url": "/websultanate/index.html"
   },
   {
-    "revision": "8f1841c04cb7754c2985",
+    "revision": "3b8089025e25cf52516d",
     "url": "/websultanate/static/css/2.cc82b09a.chunk.css"
   },
   {
-    "revision": "6f7f5db23465e948c024",
-    "url": "/websultanate/static/css/main.1408c02b.chunk.css"
+    "revision": "c38bfad632f82d2dbe2f",
+    "url": "/websultanate/static/css/main.f0ae79b7.chunk.css"
   },
   {
-    "revision": "8f1841c04cb7754c2985",
-    "url": "/websultanate/static/js/2.fc66b7a1.chunk.js"
+    "revision": "3b8089025e25cf52516d",
+    "url": "/websultanate/static/js/2.b17127f4.chunk.js"
   },
   {
-    "revision": "6f7f5db23465e948c024",
-    "url": "/websultanate/static/js/main.0f4d279a.chunk.js"
+    "revision": "c38bfad632f82d2dbe2f",
+    "url": "/websultanate/static/js/main.233516b7.chunk.js"
   },
   {
     "revision": "46a0672394888a9e3360",
