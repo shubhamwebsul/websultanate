@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9e85a0519c988089ba9770b37256b8c1",
+    "revision": "d6411fce2e99b159c1def3fe629837d9",
     "url": "/websultanate/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/websultanate/static/css/2.cc82b09a.chunk.css"
   },
   {
-    "revision": "1acf334416b7bd599236",
+    "revision": "6f7f5db23465e948c024",
     "url": "/websultanate/static/css/main.1408c02b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/websultanate/static/js/2.fc66b7a1.chunk.js"
   },
   {
-    "revision": "1acf334416b7bd599236",
-    "url": "/websultanate/static/js/main.978de7f9.chunk.js"
+    "revision": "6f7f5db23465e948c024",
+    "url": "/websultanate/static/js/main.0f4d279a.chunk.js"
   },
   {
     "revision": "46a0672394888a9e3360",
